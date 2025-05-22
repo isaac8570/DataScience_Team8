@@ -21,7 +21,7 @@ sns.boxplot(x='num__stress_level', y='num__sleep_duration_hours', data=df)
 plt.title("Sleep Duration by Stress Level")
 plt.xlabel("Stress Level (Standardized)")
 plt.ylabel("Sleep Duration (Standardized)")
-plt.xticks(rotation=45)  # 👈 x축 레이블 겹침 방지
+plt.xticks(rotation=45) 
 plt.tight_layout()
 plt.show()
 
