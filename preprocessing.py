@@ -48,7 +48,7 @@ cat_cols = ['gender','location_type']
 # pipeline
 ##  1) 수치형
 num_pipe = Pipeline([
-    ("imputer", SimpleImputer(strategy="median")),   # 결측값 -> 중앙값으로 넣기 (결측값 없지만 일단 코드에 넣었었음)
+    ("imputer", SimpleImputer(strategy="median")),   # 결측값 -> 중앙값으로 넣기 (결측값 없지만 일단 코드에 넣었음)
     ("scaler", StandardScaler())                     # 표준화 - StandardScaler
 ])
 
